@@ -1,9 +1,19 @@
+## Drop the Main Hand weapon on the Multi Action Bar on the left, lowest icon is 12, going upward to 8
+
 # DUAL WIELD WITH DEPENDENCY (off-hand tagged weapons only)
 Do a dual wield using MultiBarLeftButton10 and MultiBarLeftButton11 as Main Hand and Off-Hand, respectively
 ```
 #show Dual Wield
 /click MultiBarLeftButton10
 /click MultiBarLeftButton11
+```
+
+# DUAL WIELD WITH DEPENDENCY for MH (for one-hand tagged weapons)
+Do a dual wield using MultiBarLeftButton10 and MultiBarLeftButton11 as Main Hand and Off-Hand, respectively
+```
+#show Dual Wield
+/click MultiBarLeftButton10
+/equipslot 17 {insertWeaponByShiftClicking}
 ```
 
 # EQUIP SHIELD WITH DEPENDENCY
