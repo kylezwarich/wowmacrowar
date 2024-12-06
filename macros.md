@@ -1,4 +1,4 @@
-# DUAL WIELD WITH DEPENDENCY
+# DUAL WIELD WITH DEPENDENCY (off-hand tagged weapons only)
 Do a dual wield using MultiBarLeftButton10 and MultiBarLeftButton11 as Main Hand and Off-Hand, respectively
 ```
 #show Dual Wield
